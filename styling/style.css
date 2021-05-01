@@ -5,33 +5,3 @@
 }
 
 /*Booked*/
-.qr-code{
-  position: absolute;
-  background-color: white;
-  top:15vh;
-  width:100vw;
-  height:50vh;
-}
-.loginform-booked{
-  position: absolute;
-  top:65vh;
-  padding:20px;
-  align-items: center;
-  visibility: visible;
-}
-.lot-info span{
-  color:black;
-}
-.address-info{
-  background-color: white;
-  width: 70vw;
-  border-radius: 50px;
-  height:10vh;
-  margin: auto;
-  color:black;
-  font-size: 80%;
-  padding:10px 15px;
-}
-.address-info span{
-  color:#ff8533;
-}
