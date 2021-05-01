@@ -19,7 +19,8 @@ function LoginPass(){
 var licenseNo="";
 var bookingTime="";
 function Book(){
-  var email=document.getElementById('license').value;
-  var pass=document.getElementById('time').value;
+  // var email=document.getElementById('license').value;
+  // var pass=document.getElementById('time').value;
+  location.href="./pay.html";
     //route to the booked page
 }
