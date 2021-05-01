@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>BookMySpot | Parking Spot</title>
     <link rel="stylesheet" href="./styling/style.css" />
+    <link rel="stylesheet" href="./styling/bookingPage-style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -14,40 +15,58 @@
     />
   </head>
   <body>
+    <header class="location-name">
+      <span>Adventure Capitalists, Parking Lot-2, Indira Nagar</span>
+    </header>
     <div class="container-1">
       <div class="topbar"><br /></div>
       <div class="showcase-booking">
         <div class="spot-diagram">
           <div class="thelot">
+            <div style="margin:0 1.5vw;width: 100%;" class="row">
+              <div style="background-color: red;border: 1px solid black;text-align: center;font-size: 2em;color: white; height: 29vh;" class="col-1">1</div>
+              <div style="padding: 2px;"></div>
+              <div style="background-color: red;border: 1px solid black;text-align: center;font-size: xx-large;color: white; height: 29vh;" class="col-1">2</div>
+              <div style="padding: 2px;"></div>
+              <div style="background-color: red;border: 1px solid black;text-align: center;font-size: xx-large;color: white; height: 29vh;" class="col-1">3</div>
+              <div style="padding: 2px;"></div>
+              <div style="background-color: red;border: 1px solid black;text-align: center;font-size: xx-large;color: white; height: 29vh;" class="col-1">4</div>
+              <div style="padding: 2px;"></div>
+              <div style="background-color: yellow;border: 1px solid black;text-align: center;font-size: xx-large;color: white; height: 29vh;" class="col-1">5</div>
+              <div style="padding: 2px;"></div>
+              <div style="background-color: yellow;border: 1px solid black;text-align: center;font-size: xx-large;color: white; height: 29vh;" class="col-1">6</div>
+              <div style="padding: 2px;"></div>
+              <div style="background-color: yellow;border: 1px solid black;text-align: center;font-size: xx-large;color: white; height: 29vh;" class="col-1">7</div>
+              <div style="padding: 2px;"></div>
+              <div style="border: 1px solid black;text-align: center;font-size: xx-large; height: 29vh;" class="col-1">8</div>
+              <div style="padding: 2px;"></div>
+              <div style="border: 1px solid black;text-align: center;font-size: xx-large; height: 29vh;" class="col-1">9</div>
+              <div style="padding: 2px;"></div>
+              <div style="border: 1px solid black;text-align: center;font-size: xx-large; height: 29vh;" class="col-1">10</div>
+              <div style="padding: 2px;"></div>
+              <div style="border: 1px solid black;text-align: center;font-size: xx-large; height: 29vh;" class="col-1">11</div>
+              <div style="padding: 2px;"></div>
+            </div>
             <div class="spotlist"></div>
           </div>
           <div class="lot-data">
             <div class="container-2">
-              <button
+              <div
                 class="dummybutton-1"
-                type="button"
-                name="button"
-                disabled
-              ></button>
-              <h1>Filled</h1>
+              ></div>
+              <span style="font-size: xx-large;">Filled</span>
             </div>
             <div class="container-2">
-              <button
+              <div
                 class="dummybutton-2"
-                type="button"
-                name="button"
-                disabled
-              ></button>
-              <h1>Booked</h1>
+              ></div>
+              <span style="font-size: 2em;">Booked</span>
             </div>
             <div class="container-2">
-              <button
+              <div
                 class="dummybutton-3"
-                type="button"
-                name="button"
-                disabled
-              ></button>
-              <h1>Vacant</h1>
+              ></div>
+              <span style="font-size: 2em;">Vacant</span>
             </div>
           </div>
         </div>
@@ -56,8 +75,7 @@
         <form class="" method="post">
           <div class="box-1">
             <div class="lot-info">
-              <h3>5 empty spots</h3>
-              <h3>rs. 5/- per min</h3>
+              <h3>4 empty spots rs. 20/- per hour</h3>
             </div>
             <label for="license">License Plate No.</label>
             <input type="text" placeholder="ABC1234" /><br />

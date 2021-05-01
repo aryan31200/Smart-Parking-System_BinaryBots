@@ -1,0 +1,12 @@
+.location-name{
+    display: block;
+    align-items: center;
+    padding: 1em 0.25em 1em 0.25em;
+    text-align: center;
+    background-color: #ff8533;
+}
+.location-name span{
+    margin: 0 auto;
+    font-size: 200%;
+    color: white;
+}
