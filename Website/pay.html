@@ -1,12 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
     <title>BookMySpot</title>
-    <link rel="stylesheet" href="./styling/pay-style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="stylesheet" href="./styling/pay-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -17,7 +21,7 @@
         <h2><span>Parking Time: </span>1hr 26m 45s</h2>
         <h2><span>Realtime Fair: </span>28.67/-</h2>
       </div>
-      <img src="./QRCode1.jpg">
+      <img src="./QRCode1.jpg" onclick="Payment()" />
     </div>
     <div class="loginform-booked">
       <form>
@@ -26,13 +30,19 @@
             <h2><span>Date: </span>03/05/2021</h2>
             <h2><span>Parked At: </span>02:31:45 PM</h2>
             <h2><span>Booking Id: </span>vcdvvdguc2y7et32gvc8f7d3gfc</h2>
-            <h2><span>Fair: </span>55.27/-</h2>
-            <button class="loginbutton" onclick="Pay()" type="button" name="button">Pay</button>
+            <h2><span>Pay Now: </span>Rs. 28.67</h2>
+            <button
+              class="loginbutton-payment"
+              onclick="Pay()"
+              type="button"
+              name="button"
+            >
+              Pay
+            </button>
           </div>
-      </div>
+        </div>
       </form>
     </div>
-    <script type="text/javascript" src="./working.js">
-    </script>
+    <script type="text/javascript" src="./working.js"></script>
   </body>
 </html>
