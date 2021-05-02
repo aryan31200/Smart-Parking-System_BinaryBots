@@ -5,6 +5,9 @@ body {
   font-family: "Ubuntu", sans-serif;
 }
 header {
+  top: 0;
+  position: fixed;
+  width: 100%;
   font-size: 2em;
   color: white;
   display: block;
@@ -13,6 +16,9 @@ header {
   text-align: center;
   background-color: #ff8533;
   margin-bottom: 20px;
+}
+.container-1{
+  padding-top: 6em;
 }
 .topbar {
   text-align: center;

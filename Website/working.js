@@ -32,6 +32,12 @@ $("input.license-number").on("click", function () {
 var todayDate = new Date().toISOString().slice(0, 10);
 $("input[type=date]").val(todayDate);
 
+function timeChecker(){
+  if($("input[type=time]").val()==="14:30"){
+    $(".booked-spots").css("background-color","yellow");
+  }
+}
+
 var licenseNo = "";
 var bookingTime = "";
 function Book() {
@@ -41,5 +47,10 @@ function ConfirmedEntry() {
   location.href = "./pay.html";
 }
 function Payment() {
+  $(".loginbutton-payment").attr("disabled",false);
   $(".loginbutton-payment").css("background-color", "#ff8533");
+}
+
+function Pay(){
+  location.href="./PaymentConfirmation.html"
 }

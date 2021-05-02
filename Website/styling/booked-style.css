@@ -5,6 +5,9 @@ body {
   overflow-x: hidden;
 }
 header {
+  top: 0;
+  position: fixed;
+  width: 100%;
   font-size: 2em;
   color: white;
   display: block;
@@ -16,6 +19,7 @@ header {
 img {
   display: flex;
   margin: 50px auto;
+  padding-top: 4em;
 }
 .topbar{
     margin-top: 30px;

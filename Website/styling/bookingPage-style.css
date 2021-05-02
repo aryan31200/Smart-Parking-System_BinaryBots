@@ -1,4 +1,7 @@
 .location-name {
+  top: 0;
+  position: fixed;
+  width: 100%;
   display: block;
   align-items: center;
   padding: 1em 0.25em 1em 0.25em;
@@ -10,7 +13,9 @@
   font-size: 200%;
   color: white;
 }
-
+.container-1{
+  padding-top: 4em;
+}
 .thelot {
   width: 80vw;
   height: 30vh;
@@ -33,6 +38,11 @@
   font-size: xx-large;
   min-height: 28vh;
   padding: 0;
+  z-index: -1;
+}
+
+.booked-spots{
+  background-color: red;
 }
 
 .parking-stat {

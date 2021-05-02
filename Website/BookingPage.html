@@ -29,24 +29,24 @@
   </head>
   <body>
     <header class="location-name">
-      <span>Adventure Capitalists, Parking Lot-2, Dhanbad</span>
+      <span>Adventure Capitalists, Parking Lot-1, Dhanbad</span>
     </header>
     <div style="margin-top: 30px" class="container-1">
       <div class="thelot">
         <div style="margin: 0; width: 100%" class="row battery-bar">
-          <div style="background-color: red; color: white" class="col bars">
+          <div style=" color: white" class="col bars booked-spots">
             1
           </div>
           <div style="padding: 2px"></div>
-          <div style="background-color: red; color: white" class="col bars">
+          <div style=" color: white" class="col bars booked-spots">
             2
           </div>
           <div style="padding: 2px"></div>
-          <div style="background-color: red; color: white" class="col bars">
+          <div style=" color: white" class="col bars booked-spots">
             3
           </div>
           <div style="padding: 2px"></div>
-          <div style="background-color: red; color: white" class="col bars">
+          <div style=" color: white" class="col bars booked-spots">
             4
           </div>
           <div style="padding: 2px"></div>
@@ -95,7 +95,7 @@
           <label for="BookingTime">Booking Date</label>
           <input type="date" />
           <label for="BookingTime">Booking Time</label>
-          <input type="time" />
+          <input type="time" onChange="timeChecker()"/>
           <button
             class="loginbutton"
             onclick="Book()"

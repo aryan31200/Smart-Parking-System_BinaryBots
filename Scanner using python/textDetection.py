@@ -1,6 +1,6 @@
 import cv2
 import pytesseract
-import qrcode
+#import qrcode
 pytesseract.pytesseract.tesseract_cmd='C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
 img=cv2.imread('plate.png')
 img=cv2.cvtColor(img,cv2.COLOR_BGR2RGB)
@@ -29,8 +29,8 @@ for x in strset:
         count+=1
         if(x==str_no):
             print("Yes")
-            code=qrcode.make(str_add)
-            code.save(f"QRCode{count}.jpg")
+#            code=qrcode.make(str_add)
+#            code.save(f"QRCode{count}.jpg")
 hImg,wImg,_=img.shape
 boxes=pytesseract.image_to_boxes(img)
 for b in boxes.splitlines():
