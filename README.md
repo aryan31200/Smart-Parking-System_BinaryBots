@@ -7,7 +7,7 @@
 
 Unavailability of parking spots in metropolitan cities is a challenge which is often undermined. Finding a parking spot is annoying and can take upto 25-30 minutes in cities like Bangalore which in-turn can become a cause of tragedy unknowingly (emergency cases). To deal with this trouble we have come up with a smart parking solution which can save both time as well as fuel.
 
-[Link to the Presentation](https://github.com/aryan31200/BinaryBots_BookmySpot/blob/master/Final%20Presentation%20By%20BinaryBots.pptx)
+[Link to the Presentation](https://github.com/aryan31200/Smart-Parking-System_BinaryBots/blob/master/Final%20Presentation%20By%20BinaryBots.pptx)
 
 
 
@@ -22,4 +22,4 @@ Unavailability of parking spots in metropolitan cities is a challenge which is o
 8) Again click on the QR code to enable *Pay* button.
 9) Clicking *Pay* button takes you to a Payment successful page concluding the project's prototype.
 10) *Tessaract-OCR-master* folder contains prototype code for scanning license plate numbers.
-[Link to Presentation](https://github.com/aryan31200/Smart-Parking-System_BinaryBots/blob/master/Final%20Presentation%20By%20BinaryBots.pptx)
+
