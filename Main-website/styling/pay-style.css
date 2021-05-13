@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Ubuntu", sans-serif;
+}
+header {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  font-size: 2em;
+  color: white;
+  display: block;
+  align-items: center;
+  padding: 0.75em 0.25em 0.75em 0.25em;
+  text-align: center;
+  background-color: #ff8533;
+  margin-bottom: 20px;
+}
+.container-1{
+  padding-top: 6em;
+}
+.topbar {
+  text-align: center;
+}
+.topbar h2 {
+  margin: 0;
+}
+.topbar h2 span {
+  color: #ff8533;
+}
+img {
+  display: flex;
+  margin: 40px auto;
+}
+.loginform-booked {
+  position: absolute;
+  padding: 0 20vw;
+  align-items: center;
+  visibility: visible;
+}
+h2 {
+  padding: 0;
+  margin: 0;
+}
+h2 span {
+  color: #ff8533;
+}
+.loginbutton-payment {
+  height: 80px;
+  width: 60vw;
+  background-color: gray;
+  font-size: 1em;
+  border: 5px solid white;
+  border-radius: 40px;
+  color: white;
+  font-weight: bold;
+  margin: 20px 0;
+  cursor: pointer;
+}

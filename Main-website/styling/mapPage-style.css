@@ -1,0 +1,16 @@
+.location-name{
+    display: block;
+    align-items: center;
+    padding: 1em 0.25em 1em 0.25em;
+    text-align: center;
+    background-color: #ff8533;
+}
+.location-name input{
+    margin: 0 auto;
+    padding: 5px 15px;
+    font-size: 200%;
+    border-radius: 10px;
+}
+input:focus{
+    outline: none;
+}

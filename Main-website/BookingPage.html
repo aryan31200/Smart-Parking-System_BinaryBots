@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>BookMySpot | Parking Spot</title>
+    <link rel="stylesheet" href="./styling/style.css" />
+    <link rel="stylesheet" href="./styling/bookingPage-style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+      integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="location-name">
+      <span>Adventure Capitalists, Parking Lot-1, Pinjore</span>
+    </header>
+    <div style="margin-top: 30px" class="container-1">
+      <div class="thelot">
+        <div style="margin: 0; width: 100%" class="row battery-bar">
+          <div style=" color: white" class="col bars booked-spots">
+            1
+          </div>
+          <div style="padding: 2px"></div>
+          <div style=" color: white" class="col bars booked-spots">
+            2
+          </div>
+          <div style="padding: 2px"></div>
+          <div style=" color: white" class="col bars booked-spots">
+            3
+          </div>
+          <div style="padding: 2px"></div>
+          <div style=" color: white" class="col bars booked-spots">
+            4
+          </div>
+          <div style="padding: 2px"></div>
+          <div style="background-color: yellow; color: white" class="col bars">
+            5
+          </div>
+          <div style="padding: 2px"></div>
+          <div style="background-color: yellow; color: white" class="col bars">
+            6
+          </div>
+          <div style="padding: 2px"></div>
+          <div style="background-color: yellow; color: white" class="col bars">
+            7
+          </div>
+          <div style="padding: 2px"></div>
+          <div class="col bars">8</div>
+          <div style="padding: 2px"></div>
+          <div class="col bars">9</div>
+          <div style="padding: 2px"></div>
+          <div class="col bars">10</div>
+        </div>
+      </div>
+      <div class="lot-data">
+        <div class="container-2">
+          <div class="dummybutton-1"></div>
+          <span class="parking-stat">&nbsp;Filled</span>
+        </div>
+        <div class="container-2">
+          <div class="dummybutton-2"></div>
+          <span class="parking-stat">&nbsp;Booked</span>
+        </div>
+        <div class="container-2">
+          <div class="dummybutton-3"></div>
+          <span class="parking-stat">&nbsp;Vacant</span>
+        </div>
+        <div class="container-2">
+          <span class="parking-stat">3 empty spots @ Rs. 20/- per hour</span>
+        </div>
+      </div>
+    </div>
+    <div class="loginform-booking">
+      <form>
+        <div class="box">
+          <label for="license">License Plate No.</label>
+          <input class="license-number" type="text" value="JH10 BB 3366" />
+          <label for="BookingTime">Booking Date</label>
+          <input type="date" />
+          <label for="BookingTime">Booking Time</label>
+          <input type="time" onChange="timeChecker()"/>
+          <button
+            class="loginbutton"
+            onclick="Book()"
+            type="button"
+            name="button"
+          >
+            Book Now
+          </button>
+        </div>
+      </form>
+    </div>
+    <script type="text/javascript" src="./working.js"></script>
+  </body>
+</html>
