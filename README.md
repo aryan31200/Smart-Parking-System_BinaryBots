@@ -22,3 +22,4 @@ Unavailability of parking spots in metropolitan cities is a challenge which is o
 8) Again click on the QR code to enable *Pay* button.
 9) Clicking *Pay* button takes you to a Payment successful page concluding the project's prototype.
 10) *Tessaract-OCR-master* folder contains prototype code for scanning license plate numbers.
+[Link to Presentation](https://github.com/aryan31200/Smart-Parking-System_BinaryBots/blob/master/Final%20Presentation%20By%20BinaryBots.pptx)
